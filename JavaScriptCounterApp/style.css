@@ -1,0 +1,56 @@
+*,
+*::after,
+*::before {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+html,
+body {
+  height: 100vh;
+}
+
+body {
+  font-family: sans-serif;
+  display: flex;
+  font-size: 16px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: grey;
+}
+
+.counter_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
+  margin-top: 1rem;
+}
+
+span {
+  font-size: 3rem;
+  background-color: red;
+  padding: 2px 12px;
+  margin-left: 16px;
+  margin-right: 12px;
+  border-radius: 20px;
+  color: #fff;
+}
+
+#subtract {
+  font-size: 3rem;
+  padding: 2px 12px;
+  cursor: pointer;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+#add {
+  font-size: 3rem;
+  padding: 2px 7px;
+  cursor: pointer;
+  background-color: #fff;
+  border-radius: 20px;
+}
